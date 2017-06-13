@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	overflow: hidden;
+	position: relative;
+	font-size: 14px;
+}
+.box{
+	position: absolute;
+	left:0;
+	top:0px;
+	transition: 1s;
+}
+.page{
+	overflow: hidden;
+}
+.page-1{
+	background-image: url(../img/2.png);	
+	background-size: 100% 100%;
+	/*filter: grayscale(20%);*/
+}
+.page-2{
+	background: seagreen;
+}
+.page-3{
+	background: #000;
+	/*overflow: hidden;*/
+	box-sizing: border-box;
+}
+.page-4{
+	background: pink !important;
+}
+.page-5{
+	background: #FFFFFF;
+}
+.page-6{
+	background: firebrick;
+	background-image: url(../image/achivements-bg.jpg);
+	background-size: 100% 100%;
+}
+#nav{
+	position: fixed;
+	right:40px;
+	top:40%;
+}
+#nav span{
+	width:20px;
+	height:20px;
+	background: #fff;
+	border-radius: 20px;
+	display: block;
+	margin-bottom: 20px;
+	opacity: .5;
+	transition: 1s;
+}
+#nav .active{
+	opacity: 1;
+}
+.active2{
+	color: #E87E04;
+}
+.header-nav{
+	width: 100%;
+    height: 70px;
+    background-color: #2c3e50;
+    color: #f5f5f5;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+.header-nav .container{
+	max-width: 1200px!important;
+    overflow: hidden;
+    height: 70px;
+}
+.header-nav .container ul{
+	list-style: none;
+	float: right;
+}
+.header-nav .container ul li{
+	width: 100px;
+	float: left;
+	cursor: pointer;
+    text-align: center;
+    line-height: 70px;
+}
+.header-nav .container ul li:hover{
+	color: #E87E04;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title></title>
+	</head>
+	<body>
+		<div class="box">
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		var box = document.querySelector('.box');
+		var str = '我叫黎康，23岁，坐标广州，是一名前端工程师。';
+		var num = 0;
+		var timer = setInterval(fn,400)
+		function fn () {
+			num++;
+			if (num>str.length) {
+				clearInterval(timer)
+			}
+			box.innerHTML = str.substr(0,num);
+		}
+//		console.log(str.substr(0,2))
+	</script>
+</html>

@@ -1,0 +1,31 @@
+.page-1 h2{
+	display: block;
+	text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2c3e50;
+    padding: 150px 0 0;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.page-1 hr{
+	height: 4px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+}
+.page-1 .fades .my-intro{
+	max-width: 850px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+.page-1 .fades .my-intro p{
+	padding: 2em 0 0em;
+    text-indent: 2em;
+    text-align: justify
+}
